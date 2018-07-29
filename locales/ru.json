@@ -1,0 +1,39 @@
+{
+  "title": "Алексей Стратан, Frontend-разработчик",
+  "about": {
+    "h": "О себе",
+    "text": "Фронтенд-разработчик, JS-программист, разработчик интерфейсов, веб-технолог, верстальщик. Коммуникабельный, ответственный. Слежу за тенденциями и актуальными технологиями в мире веб-разработки. Стремлюсь участвовать в полезных и красивых проектах и работать с профессионалами. Люблю хороший код, интересные задачи и продуманные интерфейсы."
+  },
+  "skills": {
+    "header": "Навыки и умения",
+    "value": [
+      "Full-stack frontend",
+      "JS (TypeScript, ES6), HTML, CSS (Sass, Less, PostCSS)",
+      "Angular (+ ngrx), Vue.js, React (+ Redux, MobX), AngularJS, RxJs, Backbone.js, jQuery",
+      "RIA, SPA. NativeScript, PhoneGap, Cordova",
+      "Git, SVN. TDD, BDD",
+      "Webpack, Gulp, Grunt",
+      "Pixel-perfect, параллаксы, адаптивность, кроссбраузерность и т.п.",
+      "Photoshop, Sketch, Zeplin, Avocode",
+      "Scrum, Jira, Redmine",
+      "YandexMaps API, GoogleMaps API, d3.js",
+      "Node.js, Ruby (RoR), Python (Django, Tornado), PHP (Yii, Wordpress)",
+      "Хорошо знаком с юниксами, работаю на маке",
+      "Английский на уровне advanced"
+    ]
+  },
+  "jobs-header": "Опыт работы",
+  "jobs": [
+    {
+      "date": "Июнь 2017 - настоящее время",
+      "company": "",
+      "position": ""
+
+
+    }
+  ],
+  "home": {
+    "title": "Bienvenue",
+    "introduction": "Ceci est un texte d'introduction en FranÃ§ais."
+  }
+}
