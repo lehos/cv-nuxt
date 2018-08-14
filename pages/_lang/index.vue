@@ -1,16 +1,19 @@
+<script>
+export default {
+  created () {
+    console.log(this.$t('skills'))
+  }
+}
+</script>
+
 <template>
-  <div class="Content">
-    <div class="container">
-      <h1 class="Content__Title">{{ $t('home.title') }}</h1>
-      <p>{{ $t('home.introduction') }}</p>
+  <div>
+    <h2>{{$t('about.header')}}</h2>
+    <p>{{$t('about.text')}}</p>
+
+    <h2>{{$t('skills-header')}}</h2>
+    <div v-for="(skill, index) in $t('skills')" :key="index">
+      {{skill}}
     </div>
   </div>
 </template>
-
-<script>
-  export default {
-    head() {
-      return { title: this.$t('title') }
-    }
-  }
-</script>

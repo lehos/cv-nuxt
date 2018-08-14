@@ -1,39 +1,30 @@
 {
-  "title": "Алексей Стратан, Frontend-разработчик",
+  "title": "Алексей Стратан, Front-end разработчик",
   "about": {
-    "h": "О себе",
-    "text": "Фронтенд-разработчик, JS-программист, разработчик интерфейсов, веб-технолог, верстальщик. Коммуникабельный, ответственный. Слежу за тенденциями и актуальными технологиями в мире веб-разработки. Стремлюсь участвовать в полезных и красивых проектах и работать с профессионалами. Люблю хороший код, интересные задачи и продуманные интерфейсы."
+    "header": "О себе",
+    "text": "Ответственный, инициативный, коммуникабельный. В меру перфекционист. Стремлюсь участвовать в полезных и красивых проектах, работать с профессионалами. Люблю продуманные интерфейсы, хороший код и интересные задачи."
   },
-  "skills": {
-    "header": "Навыки и умения",
-    "value": [
-      "Full-stack frontend",
-      "JS (TypeScript, ES6), HTML, CSS (Sass, Less, PostCSS)",
-      "Angular (+ ngrx), Vue.js, React (+ Redux, MobX), AngularJS, RxJs, Backbone.js, jQuery",
-      "RIA, SPA. NativeScript, PhoneGap, Cordova",
-      "Git, SVN. TDD, BDD",
-      "Webpack, Gulp, Grunt",
-      "Pixel-perfect, параллаксы, адаптивность, кроссбраузерность и т.п.",
-      "Photoshop, Sketch, Zeplin, Avocode",
-      "Scrum, Jira, Redmine",
-      "YandexMaps API, GoogleMaps API, d3.js",
-      "Node.js, Ruby (RoR), Python (Django, Tornado), PHP (Yii, Wordpress)",
-      "Хорошо знаком с юниксами, работаю на маке",
-      "Английский на уровне advanced"
-    ]
-  },
+  "skills-header": "Навыки и умения",
+  "skills": [
+    "JavaScript (ES5, ES6+, TypeScript)",
+    "Vue.js, Angular (+ ngrx), React (+ MobX, Redux), AngularJS, RxJs, Backbone.js, jQuery",
+    "SPA, PWA",
+    "Git, Docker",
+    "Webpack, Gulp",
+    "Unix shell",
+    "HTML, CSS (SCSS, Less, PostCSS). Sketch.app, Photoshop, Figma, Avocode",
+    "TDD, BDD. Karma + Mocha + Chai, Jest, Selenium, Puppeter",
+    "Node.js, Ruby (RoR), Python (Django), PHP (Yii, Symphony, Wordpress)",
+    "Postgres, MySQL",
+    "English advanced"
+  ],
   "jobs-header": "Опыт работы",
   "jobs": [
     {
       "date": "Июнь 2017 - настоящее время",
-      "company": "",
-      "position": ""
-
-
+      "company": "DCA (Data-Centric Alliance)",
+      "position": "Senior Front-end Developer",
+      "description": ""
     }
-  ],
-  "home": {
-    "title": "Bienvenue",
-    "introduction": "Ceci est un texte d'introduction en FranÃ§ais."
-  }
+  ]
 }

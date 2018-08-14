@@ -1,7 +1,30 @@
 {
-  "title": "Alexey Stratan, Front-end web developer",
-  "home": {
-    "title": "Welcome",
-    "introduction": "This is an introduction in English."
-  }
+  "title": "Alexey Stratan, Front-end developer",
+  "about": {
+    "header": "About me",
+    "text": "Ответственный, инициативный, коммуникабельный. В меру перфекционист. Стремлюсь участвовать в полезных и красивых проектах, работать с профессионалами. Люблю продуманные интерфейсы, хороший код и интересные задачи."
+  },
+  "skills-header": "Навыки и умения",
+  "skills": [
+    "JavaScript (ES5, ES6+, TypeScript)",
+    "Vue.js, Angular (+ ngrx), React (+ MobX, Redux), AngularJS, RxJs, Backbone.js, jQuery",
+    "SPA, PWA",
+    "Git, Docker",
+    "Webpack, Gulp",
+    "Unix shell",
+    "HTML, CSS (SCSS, Less, PostCSS). Sketch.app, Photoshop, Figma, Avocode",
+    "TDD, BDD. Karma + Mocha + Chai, Jest, Selenium, Puppeter",
+    "Node.js, Ruby (RoR), Python (Django), PHP (Yii, Symphony, Wordpress)",
+    "Postgres, MySQL",
+    "English advanced"
+  ],
+  "jobs-header": "Опыт работы",
+  "jobs": [
+    {
+      "date": "Июнь 2017 - настоящее время",
+      "company": "DCA (Data-Centric Alliance)",
+      "position": "Senior Front-end Developer",
+      "description": ""
+    }
+  ]
 }
