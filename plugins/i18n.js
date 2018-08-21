@@ -10,8 +10,8 @@ export default ({ app, store }) => {
     locale: store.state.locale,
     fallbackLocale: 'ru',
     messages: {
-      'ru': require('~/locales/ru.json'),
-      'en': require('~/locales/en.json')
+      'ru': require('json-loader!yaml-loader!~/locales/ru.yml'),
+      'en': require('json-loader!yaml-loader!~/locales/en.yml')
     }
   })
 

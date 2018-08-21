@@ -1,8 +1,11 @@
 <script>
 export default {
-  created () {
-    console.log(this.$t('skills'))
-  }
+  data() {
+    return {
+      skills: this.$t('skills'),
+      jobs: this.$t('jobs')
+    }
+  },
 }
 </script>
 
@@ -12,8 +15,21 @@ export default {
     <p>{{$t('about.text')}}</p>
 
     <h2>{{$t('skills-header')}}</h2>
-    <div v-for="(skill, index) in $t('skills')" :key="index">
+    <div v-for="(skill, index) in skills" :key="`skill${index}`">
       {{skill}}
+    </div>
+
+    <h2>{{$t('jobs-header')}}</h2>
+    <div v-for="(job, index) in jobs" :key="`job${index}`">
+      <div class="job-date">{{job.date}}</div>
+      <div class="job-company" v-html="job.company"></div>
+      <div class="job-position">{{job.position}}</div>
+      <ul>
+        <li v-for="(desc, index) in job.desc" :key="`desc${index}`" v-html="desc"></li>
+      </ul>
+      <div class="job-stack">
+        {{job.stack}}
+      </div>
     </div>
   </div>
 </template>
