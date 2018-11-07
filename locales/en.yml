@@ -1,10 +1,10 @@
-title: Alexey Stratan, front-end developer
-about: 
+title: Alexey Stratan, frontend developer
+about:
   header: About me
   text: Ответственный, инициативный, коммуникабельный. В меру перфекционист. Стремлюсь участвовать в полезных и красивых проектах, работать с профессионалами. Люблю продуманные интерфейсы, хороший код и интересные задачи.
 
 skills-header: Навыки и умения
-skills: 
+skills:
   - JavaScript (ES5, ES6+, TypeScript)
   - Vue.js, Angular (+ ngrx, RxJs), React (+ MobX, Redux), AngularJS, Backbone.js, jQuery
   - SPA, PWA
