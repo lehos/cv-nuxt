@@ -10,18 +10,6 @@ export default {
     ]
   },
   loading: { color: '#3B8070' },
-  build: {
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  },
   router: {
     middleware: 'i18n'
   },
@@ -30,4 +18,3 @@ export default {
     routes: ['/', '/en']
   }
 }
-
