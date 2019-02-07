@@ -15,6 +15,7 @@ export default {
   },
   plugins: ['~/plugins/i18n.js'],
   generate: {
-    routes: ['/', '/en']
+    routes: ['/', '/en'],
+    dir: 'docs'
   }
 }
