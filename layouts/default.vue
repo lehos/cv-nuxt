@@ -3,7 +3,7 @@ export default {}
 </script>
 
 <template>
-  <div>
+  <div class="layout">
     <header>
       <h1>{{$t('title')}}</h1>
       <nav>

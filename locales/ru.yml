@@ -57,7 +57,7 @@ jobs:
       Сделал <a href="https://dashboard.tillhub.de/invoice/index-en.html">редактор шаблонов</a> документов
       (в том числе дизайн, архитектуру, идеи функционала)
     - Сделал REST API на Node.js (схема в Swagger, архитектура, авторизация, БД, тесты)
-    - Сделал на Angular 2 приложение для экспорта данных из стандартных форматов (.cvs, .xls) во внутренний формат
+    - Сделал на Angular 2 приложение для экспорта данных из форматов .cvs и .xls во внутренний формат
     - Поддержка сайта tillhub.de (Wordpress)
     stack: TypeScript, Angular 2, RxJs, ngrx, SCSS, IndexedDB, Service Workers, Webpack, Gulp, jQuery, PapaParse, Sketch, Node.js, Express, Knex, Swagger, Mocha, Postgres, Wordpress + PHP
 
@@ -101,7 +101,7 @@ jobs:
     position: Веб-технолог
     desc:
       - Разрабатывал фронтенд в большом проекте и в большой команде
-    stack: Git, Sass, JS, jQuery, Backbone.js, Yii, PHP
+    stack: Git, HTML, Sass, JS, jQuery, Backbone.js, Yii, PHP
 
   - date: Февраль 2011 - Март 2012
     company: Соцсеть vinteresah.ru
@@ -116,17 +116,17 @@ jobs:
     desc:
     - Верстка и сборка сайтов на разных CMS
     - Фронтенд в django-сайтах <a href='http://sgtour.ru'>sgtour.ru</a> и 555auto.ru
-    stack: SVN, Git,  HTML, CSS, JS, jQuery, python + Django, PHP, Wordpress, Drupal, 1t.cms
+    stack: SVN, Git,  HTML, CSS, JS, jQuery, Python + Django, PHP, Wordpress, Drupal, 1t.cms
 
   - date: Июнь 2007 - Декабрь 2009
-    company: Веб-студия tercio.ru (1t.ru)
+    company: Веб-студия tercio.ru (1t.ru, itla.ru)
     position: HTML-верстальщик
     desc:
     - Сделал множество сайтов (верстка + интеграция с cms)
     - Активно участвовал в разработке студийной cms (идеи + верстка)
     - Руководил небольшим отделом верстки
     - Успешно работал в режиме сильной многозадачности
-    stack: SVN, HTML, CSS, jQuery, 1t.cms, .NET
+    stack: SVN, HTML, CSS, jQuery, 1t.cms
 
   - date: Июль 2006 - Май 2007
     company: Рекламное агентство "Реклама успеха"

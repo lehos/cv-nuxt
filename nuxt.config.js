@@ -17,5 +17,8 @@ export default {
   generate: {
     routes: ['/', '/en'],
     dir: 'docs'
-  }
+  },
+  css: [
+    '@/assets/main.css'
+  ]
 }
